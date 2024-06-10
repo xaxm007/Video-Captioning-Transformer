@@ -66,7 +66,7 @@ conda activate video_captioning
 
 To ensure the project runs smoothly, follow these additional steps:
 
-### 6. Setting Up Data Loaders
+### Setting Up Data Loaders
 
 1. Navigate to the `Video-Captioning-Transformer` repository.
 
@@ -88,7 +88,7 @@ To ensure the project runs smoothly, follow these additional steps:
        path: /path/to/your/MSRVTT/dataset
      ```
 
-### 7. Training the Model
+### Training the Model
 
 1. Ensure you are in the `Video-Captioning-Transformer` directory.
 
