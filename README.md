@@ -62,3 +62,37 @@ This project aims to generate captions for videos using a Transformer model. The
 ```sh
 conda create -n video_captioning python=3.8
 conda activate video_captioning
+```
+
+To ensure the project runs smoothly, follow these additional steps:
+
+### 6. Setting Up Data Loaders
+
+1. Navigate to the `Video-Captioning-Transformer` repository.
+
+2. Configure the data loader to use the MSVD dataset:
+   - Edit the configuration file to set the path to your MSVD dataset.
+   - Example:
+     ```yaml
+     dataset:
+       name: MSVD
+       path: /path/to/your/MSVD/dataset
+     ```
+
+3. Configure the data loader to use the MSRVTT dataset:
+   - Edit the configuration file to set the path to your MSRVTT dataset.
+   - Example:
+     ```yaml
+     dataset:
+       name: MSRVTT
+       path: /path/to/your/MSRVTT/dataset
+     ```
+
+### 7. Training the Model
+
+1. Ensure you are in the `Video-Captioning-Transformer` directory.
+
+2. Run the training script with the appropriate configuration:
+   ```sh
+   python train.py --config configs/train_config.yaml
+
