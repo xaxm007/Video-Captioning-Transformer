@@ -95,4 +95,18 @@ To ensure the project runs smoothly, follow these additional steps:
 2. Run the training script with the appropriate configuration:
    ```sh
    python train.py --config configs/train_config.yaml
+   ```
+### Additional Transformer Repositories
+
+In addition to the main repositories, the project also integrates the following repositories for enhanced transformer capabilities:
+
+- **BMT (Bidirectional Multimodal Transformer)**
+  - Repository: [BMT](https://github.com/v-iashin/BMT)
+  - Description: Bidirectional Multimodal Transformer for multimodal tasks.
+
+- **MDVC (Modality Distillation with Visual Concept)**
+  - Repository: [MDVC](https://github.com/v-iashin/MDVC)
+  - Description: Repository for modality distillation with visual concepts.
+
+These repositories offer additional transformer architectures and functionalities, further enhancing the capabilities of the video captioning transformer model.
 
