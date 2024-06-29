@@ -1,5 +1,5 @@
 # Video-Captioning-Transformer
-For transformer understanding
+For transformer understanding (This is just a note for me to implement the original project).
 
 # Video Captioning Transformer Project
 
